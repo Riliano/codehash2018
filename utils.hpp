@@ -1,3 +1,5 @@
+#pragma once
+
 struct Point
 {
 	long long x;
