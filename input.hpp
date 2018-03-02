@@ -17,4 +17,6 @@ struct World
 	std::vector< Ride > allRides;
 
 	void Input( std::istream & );
-}world;
+};
+
+extern World world;

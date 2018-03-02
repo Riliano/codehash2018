@@ -7,8 +7,8 @@
 void World::Input( std::istream &stream )
 {
 	stream>>rows>>columns>>fleetSize>>numRides>>bonus>>steps;
-	allRides.reserve( fleetSize );
-	for( size_t i=0; i < fleetSize; ++ i )
+	allRides.reserve( numRides );
+	for( size_t i=0; i < numRides; ++ i )
 	{
 		Point a, b;
 		unsigned int s, e;
@@ -17,3 +17,5 @@ void World::Input( std::istream &stream )
 		allRides.push_back( newRide );
 	}
 }
+
+World world;

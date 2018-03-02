@@ -6,7 +6,7 @@
 struct Ride
 {
 	Point from, to;
-	unsigned int start, end;	
+	unsigned long long start, end;	
 	long long dist;
 
 	Ride( const Point &, const Point &,
