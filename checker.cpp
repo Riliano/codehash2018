@@ -40,3 +40,5 @@ long long Checker::SimulateFleet( const std::vector< std::vector< int > > &rideL
 
 	return score;
 }
+
+Checker checker;

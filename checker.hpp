@@ -12,3 +12,5 @@ class Checker
 	long long SimulateCar( const std::vector< int > & );
 	long long SimulateFleet( const std::vector< std::vector< int > > & );
 };
+
+extern Checker checker;

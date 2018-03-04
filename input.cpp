@@ -13,7 +13,7 @@ void World::Input( std::istream &stream )
 		Point a, b;
 		unsigned int s, e;
 		stream>>a.x>>a.y>>b.x>>b.y>>s>>e;
-		Ride newRide( a, b, s, e );
+		Ride newRide( a, b, s, e, i );
 		allRides.push_back( newRide );
 	}
 }
