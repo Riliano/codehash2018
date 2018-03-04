@@ -8,8 +8,8 @@ With this solution and a not-so-unrisanble amount of time I managed to score a t
 
 # Compilation and usage
 Compile and start with
- '''
+ ```
   make
   ./codehash2018
- '''
+ ```
 after which you will be prompted to enter an input file and an output file, where the solution will be stored
